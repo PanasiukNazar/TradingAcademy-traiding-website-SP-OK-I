@@ -14,6 +14,11 @@
         />
 
         <title>АкадемияТрейдинга</title>
+        <link
+            rel="shortcut icon"
+            href="assets/images/logo.png"
+            type="image/x-icon"
+        />
 
         <!-- Bootstrap core CSS -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -180,7 +185,7 @@ https://templatemo.com/tm-545-finance-business
             </div>
         </div>
 
-        <div class="services">
+        <div id="services" class="services">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -310,7 +315,7 @@ https://templatemo.com/tm-545-finance-business
             </div>
         </div>
 
-        <div class="more-info">
+        <div id="about" class="more-info">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -457,13 +462,27 @@ https://templatemo.com/tm-545-finance-business
             </div>
         </div>
 
-        <div class="callback-form">
+        <div id="contact" class="callback-form">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h2>Request a <em>call back</em></h2>
-                            <span>Etiam suscipit ante a odio consequat</span>
+                            <h2>Запросите <em>обратный звонок</em></h2>
+                            <span
+                                >Мы всегда рады помочь вам! Если у вас возникли
+                                вопросы или вам требуется дополнительная
+                                информация о наших услугах по трейдингу и
+                                финансовым рынкам, не стесняйтесь обращаться к
+                                нам. Заполните форму ниже, и мы свяжемся с вами
+                                в ближайшее время. Мы готовы предоставить
+                                консультации, ответить на ваши вопросы и
+                                обсудить, как наши курсы могут помочь вам
+                                достичь успеха в трейдинге. Ваше мнение важно
+                                для нас, и мы стремимся предоставить лучший
+                                сервис и поддержку. Оставьте свои контактные
+                                данные, и мы обязательно ответим на ваше
+                                сообщение.</span
+                            >
                         </div>
                     </div>
 
@@ -478,7 +497,7 @@ https://templatemo.com/tm-545-finance-business
                                                 type="text"
                                                 class="form-control"
                                                 id="name"
-                                                placeholder="Full Name"
+                                                placeholder="Полное имя"
                                                 required=""
                                             />
                                         </fieldset>
@@ -491,7 +510,7 @@ https://templatemo.com/tm-545-finance-business
                                                 class="form-control"
                                                 id="email"
                                                 pattern="[^ @]*@[^ @]*"
-                                                placeholder="E-Mail Address"
+                                                placeholder="Электронная почта"
                                                 required=""
                                             />
                                             <div
@@ -510,7 +529,7 @@ https://templatemo.com/tm-545-finance-business
                                                 type="text"
                                                 class="form-control"
                                                 id="subject"
-                                                placeholder="Subject"
+                                                placeholder="Тема"
                                                 required=""
                                             />
                                         </fieldset>
@@ -522,7 +541,7 @@ https://templatemo.com/tm-545-finance-business
                                                 rows="6"
                                                 class="form-control"
                                                 id="message"
-                                                placeholder="Your Message"
+                                                placeholder="Ваше сообщение"
                                                 required=""
                                             ></textarea>
                                         </fieldset>
@@ -535,7 +554,7 @@ https://templatemo.com/tm-545-finance-business
                                                 class="border-button"
                                                 onclick="sendForm()"
                                             >
-                                                Send Message
+                                                Отправить сообщение
                                             </button>
                                         </fieldset>
                                     </div>
@@ -560,142 +579,52 @@ https://templatemo.com/tm-545-finance-business
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 footer-item">
-                        <h4>Finance Business</h4>
+                    <div class="col-md-4 footer-item">
+                        <h4>Остались Вопросы?</h4>
                         <p>
-                            Vivamus tellus mi. Nulla ne cursus elit,vulputate.
-                            Sed ne cursus augue hasellus lacinia sapien vitae.
+                            Вам нужна дополнительная информация или есть вопросы
+                            о наших услугах? Мы всегда готовы помочь! В нижней
+                            части страницы вы найдете наши контактные данные и
+                            адрес.
                         </p>
-                        <ul class="social-icons">
-                            <li>
-                                <a
-                                    rel="nofollow"
-                                    href="https://fb.com/templatemo"
-                                    target="_blank"
-                                    ><i class="fa fa-facebook"></i
-                                ></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-behance"></i></a>
-                            </li>
-                        </ul>
                     </div>
-                    <div class="col-md-3 footer-item">
-                        <h4>Useful Links</h4>
+                    <div class="col-md-4 footer-item">
+                        <h4>Полезные Ссылки</h4>
                         <ul class="menu-list">
-                            <li><a href="#">Vivamus ut tellus mi</a></li>
-                            <li><a href="#">Nulla nec cursus elit</a></li>
-                            <li><a href="#">Vulputate sed nec</a></li>
-                            <li><a href="#">Cursus augue hasellus</a></li>
-                            <li><a href="#">Lacinia ac sapien</a></li>
+                            <li><a href="index.html">Главная</a></li>
+                            <li>
+                                <a href="index.html#contact"
+                                    >Связаться с нами</a
+                                >
+                            </li>
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Условия использования</a
+                                >
+                            </li>
+                            <li>
+                                <a href="privacy-policy.html"
+                                    >Политика конфиденциальности</a
+                                >
+                            </li>
                         </ul>
                     </div>
-                    <div class="col-md-3 footer-item">
-                        <h4>Additional Pages</h4>
+                    <div class="col-md-4 footer-item">
+                        <h4>Адрес</h4>
                         <ul class="menu-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">How We Work</a></li>
-                            <li><a href="#">Quick Support</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li>
+                                <a href="#"
+                                    >Via Mannelli, 167, 50132 Firenze FI,
+                                    Италия</a
+                                >
+                            </li>
+                            <li><a href="#">+390552268375</a></li>
+                            <li><a href="#">trading_academy@gmail.com</a></li>
                         </ul>
-                    </div>
-                    <div class="col-md-3 footer-item last-item">
-                        <h4>Contact Us</h4>
-                        <div class="contact-form">
-                            <form
-                                id="contact footer-contact"
-                                action=""
-                                method="post"
-                            >
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                        <fieldset>
-                                            <input
-                                                name="name"
-                                                type="text"
-                                                class="form-control"
-                                                id="name"
-                                                placeholder="Full Name"
-                                                required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                        <fieldset>
-                                            <input
-                                                name="email"
-                                                type="text"
-                                                class="form-control"
-                                                id="email"
-                                                pattern="[^ @]*@[^ @]*"
-                                                placeholder="E-Mail Address"
-                                                required=""
-                                            />
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea
-                                                name="message"
-                                                rows="6"
-                                                class="form-control"
-                                                id="message"
-                                                placeholder="Your Message"
-                                                required=""
-                                            ></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button
-                                                type="submit"
-                                                id="form-submit"
-                                                class="filled-button"
-                                            >
-                                                Send Message
-                                            </button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
         </footer>
-
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>
-                            Copyright &copy; 2020 Financial Business Co., Ltd. -
-                            Design:
-                            <a
-                                rel="nofollow noopener"
-                                href="https://templatemo.com"
-                                target="_blank"
-                                >TemplateMo</a
-                            ><br />
-                            Distributed By:
-                            <a
-                                rel="nofollow noopener"
-                                href="https://themewagon.com"
-                                target="_blank"
-                                >ThemeWagon</a
-                            >
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Cookie banner -->
         <div class="cookie-wrapper show">
